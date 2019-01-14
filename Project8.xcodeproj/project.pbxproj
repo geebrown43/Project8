@@ -12,6 +12,7 @@
 		07A64C3321EC199700C56910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A64C3121EC199700C56910 /* Main.storyboard */; };
 		07A64C3521EC199700C56910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A64C3421EC199700C56910 /* Assets.xcassets */; };
 		07A64C3821EC199700C56910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A64C3621EC199700C56910 /* LaunchScreen.storyboard */; };
+		07A64C4021EC26BF00C56910 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 07A64C3F21EC26BE00C56910 /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		07A64C3421EC199700C56910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07A64C3721EC199700C56910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07A64C3921EC199700C56910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A64C3F21EC26BE00C56910 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				07A64C2F21EC199700C56910 /* ViewController.swift */,
 				07A64C3121EC199700C56910 /* Main.storyboard */,
 				07A64C3421EC199700C56910 /* Assets.xcassets */,
+				07A64C3F21EC26BE00C56910 /* level1.txt */,
 				07A64C3621EC199700C56910 /* LaunchScreen.storyboard */,
 				07A64C3921EC199700C56910 /* Info.plist */,
 			);
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A64C3821EC199700C56910 /* LaunchScreen.storyboard in Resources */,
+				07A64C4021EC26BF00C56910 /* level1.txt in Resources */,
 				07A64C3521EC199700C56910 /* Assets.xcassets in Resources */,
 				07A64C3321EC199700C56910 /* Main.storyboard in Resources */,
 			);
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DevelopITLLC.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DevelopITLLC.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
